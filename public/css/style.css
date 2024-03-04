@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(206, 233, 245); */
+}
+
+.navbar {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(70, 130, 180); 
+    color: #fff; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    /* border: 1px solid black;  */
+}
+.navtitle {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.navmenu {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.navmenu ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    /* border: 1px solid; */
+}
+.navmenu ul li {
+    display: inline;
+    font-size: 1.3rem;
+    /* margin-right: 20px;  */
+}
+.navmenu li a {
+    color: #fff; 
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.navmenu ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline 1.5px; 
+}
+.navmenu ul li a:active {
+    cursor: pointer;
+    color: black;
+    /* text-decoration: underline 1.5px;  */
+}
+.table1 {
+    position: absolute;
+    top: 25%;
+    border-collapse: collapse;
+    width: 80%;
+    height: auto;
+    box-shadow: 5px 5px 5px 1px rgb(70, 130, 180);
+}
+.th1 {
+    height: 4rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(70, 130, 180);
+    border: 1px solid #dddddd;
+    text-align: center;
+    /* padding-left: 10px; */
+}
+.td1 {
+    height: 4rem;
+    font-size: 1.2rem;
+    border: 1px solid #dddddd;
+    text-align: center;
+    /* padding: 8px; */
+}
+/* tr {
+    
+} */
+.tr1:nth-child(odd) {
+    background-color: rgb(209, 236, 246);
+}
+
+.tr1:hover {
+    background-color: rgb(222, 240, 247);
+}
+.form1Leg{
+    font-size: 2rem;
+    margin-top: 1%;
+}
+.form1 {
+    width: 40%;
+    height: 25rem;
+    position: absolute;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.container {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container>label{
+    font-size: 1.5rem;
+}
+.container>input{
+    width: 17rem;
+    height: 2.2rem;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.container>button{
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgb(70, 130, 180);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.container>button a{
+    text-decoration: none;
+    color: #fff;
+}
+.filtreSection{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.form-filtre {
+    width: 20%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+    /* border: 1px solid; */
+}
+.form-filtre>select {
+    font-size: 1rem;
+    width: 7rem;
+    height: 1.5rem;
+    /* border: 1px; */
+    border-radius: 2px;
+}
+.form-filtre>button {
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    background-color: rgb(70, 130, 180);
+    /* box-shadow: 0px 0px 2px 1px rgb(70, 130, 180); */
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.New-cmd>button {
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    /* background-color: rgb(209, 236, 246); */
+    background-color: rgb(70, 130, 180);
+}
+.New-cmd>button a{
+    color: #fff;
+    text-decoration: none;
+}
+.New-chosen {
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5%;
+    /* border: 1px solid; */
+}
+.New-chosen>button {
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(70, 130, 180);
+}
+.New-chosen>button a{
+    color: #fff;
+    text-decoration: none;
+}

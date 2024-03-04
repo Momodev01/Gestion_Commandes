@@ -1,0 +1,4 @@
+commande (idc, datec, montant, etat, #id_client);
+client (id_client, nom_client, prenom_client, telephone );
+article (ida, libelle, prixunitaire , qtestock ;
+avoir (qtecomd , #ida, #idc);
